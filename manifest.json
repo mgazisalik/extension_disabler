@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Extension Disabler",
+  "description": "A chrome extension that enables/disables specified extensions",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Extension Disabler"
+  },
+  "permissions": [
+    "management"
+  ]
+}
